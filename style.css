@@ -1,0 +1,66 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:black;
+    padding: 10px;
+    color: #fff;
+}
+
+nav img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: #dd1717;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    width: calc(33.33% - 20px);
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+}
